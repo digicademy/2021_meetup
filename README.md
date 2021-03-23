@@ -7,5 +7,5 @@ Zoom
 
 2021-03-18
 
-online: [https://digicademy.github.io/DH4CS/](https://digicademy.github.io/DH4CS/)
+online: [https://digicademy.github.io/2021_meetup/](https://digicademy.github.io/2021_meetup/)
 

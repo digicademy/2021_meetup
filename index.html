@@ -27,8 +27,7 @@
         <!-- highlight -->
         <link rel="stylesheet" href="vendor/highlight/styles/default.css" />
         <link rel="stylesheet" href="resources/css/hljs.linenumbering.css" />
-        <!-- swiper -->
-        <link rel="stylesheet" href="vendor/swiper/swiper.min.css" />
+        
         <!-- magnific popup -->
         <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup-1.1.0.css" />
         <!-- standard presentation styles -->
@@ -1616,17 +1615,7 @@
         <script>
             hljs.initHighlightingOnLoad();</script>
         <script src="resources/js/hljs.linenumbering.js"></script>
-        <!-- swiper -->
-        <script src="vendor/swiper/swiper.min.js"></script>
-        <script>
-            var swiper = new Swiper('.swiper-container', {
-                pagination: '.swiper-pagination',
-                paginationClickable: true,
-                nextButton: '.swiper-button-next',
-                prevButton: '.swiper-button-prev',
-                spaceBetween: 30,
-                hashnav: true
-            });</script>
+     
         <!-- magnific popup -->
         <script src="vendor/magnific-popup/jquery.magnific-popup.min-1.1.0.js"></script>
         <script src="resources/js/magnific-popup.lightbox.js"></script>
@@ -1637,16 +1626,7 @@
             var obj = impress();
             obj.init();
             initSlideNo(obj);</script>
-        <!--<script>
-            var videoStep = document.getElementById("video-step");
-var video = document.getElementById("video");
-videoStep.addEventListener("impress:stepenter", function() {
-    video.play();
-}, false);
-videoStep.addEventListener("impress:stepleave", function() {
-    video.pause();
-}, false);
-        </script>-->
+      
         <script>
             var videos = document.getElementsByTagName("video");
             Array.prototype.forEach.call(videos, function (video) {
